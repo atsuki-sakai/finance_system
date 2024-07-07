@@ -8,7 +8,7 @@ import { supabaseClient } from "@/services/supabase/client"; // Import Supabase 
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 
-const Login = () => {
+const LoginPage = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
@@ -67,4 +67,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default LoginPage;

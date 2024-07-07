@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Home() {
+export default function HomePage() {
   return (
     <div>
       <h1 className="text-4xl font-bold text-center mb-5">Home</h1>

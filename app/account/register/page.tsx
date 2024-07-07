@@ -8,7 +8,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { supabaseClient } from "@/services/supabase/client";
 
-const Register = () => {
+const RegisterPage = () => {
   const router = useRouter();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -68,4 +68,4 @@ const Register = () => {
   );
 };
 
-export default Register;
+export default RegisterPage;
